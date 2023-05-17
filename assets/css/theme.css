@@ -3635,7 +3635,7 @@ h2 {
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-.form {
+form .content {
   width: 100%;
   text-align: center;
   display: flex;
@@ -3645,25 +3645,25 @@ h2 {
   scroll-behavior: smooth;
 }
 
-.form div {
+form .content div {
   flex-shrink: 0;
   width: 100%;
   transition: 1s ease;
 }
 
-.form input:last-child {
+.content input:last-child {
   margin-bottom: 20px;
 }
 
-.form input {
+.content input {
   margin-top: 20px;
   border-radius: 10px;
-  padding: 10px;
+  padding: 14px;
   border: 1px solid #00000084;
   outline: none;
 }
 
-.form input:focus {
+.content input:focus {
   border: 1px solid #590C14;
 }
 
@@ -3672,29 +3672,35 @@ h2 {
   width: 100%;
 }
 
+.controls button.active {
+  left: auto;
+  opacity: 1;
+  position: relative;
+}
+
 .next, .prev, .submit {
   display: inline-block;
   margin: auto;
-  width: 100px;
+  width: 120px;
   height: auto;
-  padding: 10px 0;
+  padding: 14px 0;
   background: #590C14;
   color: #ffffff;
   text-align: center;
   border-radius: 10px;
-}
-
-.prev {
-  display: none;
+  border: none;
+  font-size: 15px;
+  font-weight: 400;
+  transition: .5s ease;
+  left: -100%;
+  opacity: 0;
+  position: absolute;
+  outline: none;
 }
 
 .speech {
   margin-left: 25px;
   margin-right: 25px;
-}
-
-.submit {
-  display: none;
 }
 
 .away {
