@@ -3,14 +3,14 @@
 
 <head>
   <!-- Google tag (gtag.js) -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q8TLT6998Y"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q8TLT6998Y"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-Q8TLT6998Y');
-</script> -->
+    gtag('config', 'G-Q8TLT6998Y');
+  </script>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -19,8 +19,11 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 
   <!-- Google Fonts -->
   <link
@@ -42,6 +45,27 @@
 </head>
 
 <body>
+
+  <!-- <dialog class="modal-image">
+    <button class="close">x</button>
+    <button class="redirect">vamos lá</button>
+    <img src="" alt="">
+  </dialog>
+  <script>
+    window.addEventListener('load', function () {
+      const modal = document.querySelector("dialog")
+      const btnClose = document.querySelector("dialog .close")
+      const btnRedirect = document.querySelector("dialog .redirect")
+      modal.showModal();
+      btnClose.onclick = () => {
+        modal.close()
+      }
+
+      btnRedirect.onclick = () => {
+        window.location.href = '/pages/embaixadores.html'
+      }
+    })
+  </script> -->
 
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top">
@@ -65,7 +89,7 @@
           </li>
           <li class="dropdown"><a href="#"><span>Oportunidades</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="/coming-soon/under-construction.html">Simulações Internacionais</a></li>
+              <li><a href="/pages/muns.html">Simulações Internacionais</a></li>
               <li><a href="/coming-soon/under-construction.html">Cursos de Línguas</a></li>
               <li><a href="/coming-soon/under-construction.html">Eventos</a></li>
               <li><a href="/pages/embaixadores.html">Embaixadores</a></li>
@@ -156,9 +180,9 @@
     <!-- End About Section -->
 
 
-        <!-- ======= Clients Section ======= -->
+    <!-- ======= Clients Section ======= -->
 
-        <!-- <section id="clients" class="clients">
+    <!-- <section id="clients" class="clients">
 
           <div class="container" data-aos="fade-up">
   
@@ -201,8 +225,8 @@
           </div>
   
       </section> -->
-  
-      <!-- End Clients Section -->
+
+    <!-- End Clients Section -->
 
     <!-- ======= Values Section ======= -->
     <section id="values" class="values">
@@ -334,12 +358,13 @@
               <div class="card-group">
                 <div class="col">
                   <div class="card h-100" style="width: 18rem;">
-                    <img src="/assets/img/clients/simulacoes-internacionais.png" class="card-img-top img-fluid" alt="...">
+                    <img src="/assets/img/clients/simulacoes-internacionais.png" class="card-img-top img-fluid"
+                      alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Simulações Internacionais</h5>
-                      <p class="card-text">  </p>
+                      <p class="card-text"> </p>
                       <div class="text-center text-lg-start">
-                        <a href="/pages/mun.html"
+                        <a href="/pages/muns.html"
                           class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                           <span>Saber Mais</span>
                           <i class="bi bi-arrow-right"></i>
@@ -353,7 +378,7 @@
                     <img src="/assets/img/clients/curso-ingles-espanhol.png" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Cursos de Línguas Estrangeiras</h5>
-                      <p class="card-text">  </p>
+                      <p class="card-text"> </p>
                       <div class="text-center text-lg-start">
                         <a href="/pages/cursos-linguas.html"
                           class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
@@ -369,7 +394,7 @@
                     <img src="/assets/img/clients/eventos.png" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Eventos</h5>
-                      <p class="card-text">  </p>
+                      <p class="card-text"> </p>
                       <div class="text-center text-lg-start">
                         <a href="/pages/eventos.html"
                           class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
@@ -389,7 +414,7 @@
                     <img src="/assets/img/clients/embaixadores.png" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Embaixadores</h5>
-                      <p class="card-text">  </p>
+                      <p class="card-text"> </p>
                       <div class="text-center text-lg-start">
                         <a href="/pages/embaixadores.html"
                           class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
@@ -405,7 +430,7 @@
                     <img src="/assets/img/clients/intercambio.png" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Intercâmbios</h5>
-                      <p class="card-text">  </p>
+                      <p class="card-text"> </p>
                       <div class="text-center text-lg-start">
                         <a href="/pages/intercambio.html"
                           class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
@@ -421,7 +446,7 @@
                     <img src="/assets/img/clients/summer-camps.png" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Summer Camps</h5>
-                      <p class="card-text">  </p>
+                      <p class="card-text"> </p>
                       <div class="text-center text-lg-start">
                         <a href="/pages/summer-camp.html"
                           class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
@@ -578,7 +603,7 @@
               <li data-filter=".filter-adm">Administrativo</li>
               <li data-filter=".filter-operational">Operacional</li>
               <li data-filter=".filter-academic">Acadêmico</li>
-              <li data-filter=".filter-languages">Linguas Extrangeiras</li>
+              <li data-filter=".filter-languages">Linguas estrangeiras</li>
               <li data-filter=".filter-marketing">Marketing</li>
               <li data-filter=".filter-web">Programação</li>
             </ul>
@@ -835,7 +860,7 @@
               <img src="assets/img/team/alice-lira.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Alice Lira</h4>
-                <h3>Diretora de Línguas Extrangeiras</h3>
+                <h3>Diretora de Línguas estrangeiras</h3>
                 <p></p>
                 <div class="portfolio-links">
                   <a href="assets/img/team/alice_lira.png" data-gallery="portfolioGallery" class="portfokio-lightbox"
@@ -854,7 +879,7 @@
               <img src="assets/img/team/ana-julia-russi.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Ana Júlia Russi</h4>
-                <h3>Membro da Direção de Línguas Extrangeiras</h3>
+                <h3>Membro da Direção de Línguas estrangeiras</h3>
                 <p></p>
                 <div class="portfolio-links">
                   <a href="assets/img/team/ana-julia-russi.png" data-gallery="portfolioGallery"
@@ -873,7 +898,7 @@
               <img src="assets/img/team/heloise-greta.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Heloise Greta</h4>
-                <h3>Membro da Direção de Línguas Extrangeiras</h3>
+                <h3>Membro da Direção de Línguas estrangeiras</h3>
                 <p></p>
                 <div class="portfolio-links">
                   <a href="assets/img/team/heloise-greta.png" data-gallery="portfolioGallery" class="portfokio-lightbox"
@@ -891,7 +916,7 @@
               <img src="assets/img/team/joao-pedro.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>João Pedro Ribeiro</h4>
-                <h3>Membro da Direção de Línguas Extrangeiras</h3>
+                <h3>Membro da Direção de Línguas estrangeiras</h3>
                 <p></p>
                 <div class="portfolio-links">
                   <a href="assets/img/team/joao-pedro.png" data-gallery="portfolioGallery" class="portfokio-lightbox"
@@ -910,13 +935,13 @@
               <img src="assets/img/team/otavio-gomes.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Otávio Gomes</h4>
-                <h3>Membro da Direção de Línguas Extrangeiras</h3>
+                <h3>Membro da Direção de Línguas estrangeiras</h3>
                 <p></p>
                 <div class="portfolio-links">
                   <a href="assets/img/team/otavio-gomes.png" data-gallery="portfolioGallery" class="portfokio-lightbox"
                     title=" "><i class="bi bi-plus"></i></a>
                   <a href="http://Instagram.com/euotaviio" title="Mais Detalhes"><i class="bi bi-instagram"></i></a>
-                  <a href="mailto:otaviogomes.eu@gmail.com" title="Mais Detalhes"><i class="bi bi-envelope"></i></a>
+                  <a href="mailto:ootaviogomesmiranda@gmail.com" title="Mais Detalhes"><i class="bi bi-envelope"></i></a>
                   <!--<a href="#" title="More Detalhes"><i class="bi bi-link"></i></a>-->
                 </div>
               </div>
@@ -944,13 +969,13 @@
           <!-- Iago Azevedo -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-marketing">
             <div class="portfolio-wrap">
-              <img src="assets/img/team/Iago-azevedo.png" class="img-fluid" alt="">
+              <img src="assets/img/team/iago-azevedo.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Iago Azevedo</h4>
                 <h3>Membro da Direção de Marketing e Audiovisual</h3>
                 <p></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/team/Iago-azevedo.png" data-gallery="portfolioGallery" class="portfokio-lightbox"
+                  <a href="assets/img/team/iago-azevedo.png" data-gallery="portfolioGallery" class="portfokio-lightbox"
                     title=" "><i class="bi bi-plus"></i></a>
                   <a href="http://Instagram.com/iagoazv" title="Mais Detalhes"><i class="bi bi-instagram"></i></a>
                   <a href="mailto:estudanteiagoazevedo@gmail.com" title="Mais Detalhes"><i
@@ -981,13 +1006,13 @@
           <!-- bruno -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/team/Bruno-Rios.png" class="img-fluid" alt="">
+              <img src="assets/img/team/bruno-rios.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Bruno Rios</h4>
                 <h3>Diretor de Tecnologia da Informação</h3>
                 <p></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/team/Bruno-Rios.png" data-gallery="portfolioGallery" class="portfokio-lightbox"
+                  <a href="assets/img/team/bruno-rios.png" data-gallery="portfolioGallery" class="portfokio-lightbox"
                     title=" "><i class="bi bi-plus"></i></a>
                   <a href="https://www.instagram.com/eu.com.brivers/" title="Mais Detalhes"><i
                       class="bi bi-instagram"></i></a>
@@ -1202,7 +1227,7 @@
                   <i class="bi bi-envelope"></i>
                   <h3>envie um email</h3>
                   <p>
-                    info@brazilianyouthacademy.com<br>contato@brazilianyouthacademy.com
+                    brazilianyouthacademy@gmail.com
                   </p>
                 </div>
               </div>
@@ -1287,7 +1312,7 @@
           <div class="col-lg-2 col-6 footer-links">
             <h4>Nossos Serviços</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="/pages/mun.html">Simulações Internacionais</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/pages/muns.html">Simulações Internacionais</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="/pages/cursos-linguas.html">Cursos de Línguas</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="/pages/eventos.html">Eventos</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="/pages/embaixadores.html">Embaixadores</a></li>
@@ -1301,8 +1326,8 @@
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Entre em Contato</h4>
             <p>
-               
-              <strong>Email:</strong> info@brazilianyouthacademy.com<br>
+
+              <strong>Email:</strong> brazilianyouthacademy@gmail.com<br>
             </p>
 
           </div>
